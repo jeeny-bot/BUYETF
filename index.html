@@ -10,12 +10,12 @@
       gtag('config', 'G-VXXKXMDF1V');
     </script>
     <meta charset="UTF-8">
-    <title>Buy ETF</title>
+    <title>BUYETF</title>
 </head>
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BUYETF | 인텔리전트 ETF 포트폴리오</title>
+  <title>BUYETF | SMART ETF INVESTING</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class' }
@@ -214,14 +214,14 @@
         </div>
         
         <div class="space-y-6 border-t border-slate-800 pt-8 mt-auto">
-          <div class="bg-slate-800/40 p-8 rounded-[2rem] border border-slate-800/50">
+          <div class="bg-slate-800/40 p-8 rounded-[2rem] border border-slate-500/50">
             <div class="mb-8">
               <label class="text-xl text-slate-400 font-black uppercase tracking-wider block mb-4" data-i18n="inputKrw">투자 예정 금액 (KRW)</label>
               <input type="text" id="totalInvestmentKRW" class="w-full bg-transparent border-none p-0 text-white font-black text-2xl focus:ring-0 outline-none" placeholder="0" oninput="handleCurrencyInput(this, 'KRW')">
             </div>
             <div class="border-t border-slate-800/30 my-8"></div>
             <div>
-              <label class="text-xl text-slate-400 font-black uppercase tracking-wider block mb-4" data-i18n="inputUsd">예상 투자 금액 (USD)</label>
+              <label class="text-xl text-slate-400 font-black uppercase tracking-wider block mb-4" data-i18n="inputUsd">투자 예정 금액 (USD)</label>
               <input type="text" id="totalInvestment" class="w-full bg-transparent border-none p-0 text-slate-400 font-black text-3xl focus:ring-0 outline-none" placeholder="0" oninput="handleCurrencyInput(this, 'USD')">
             </div>
           </div>
@@ -247,11 +247,11 @@
         <span id="modalDiv" class="font-black text-blue-600 text-xl">-</span>
       </div>
       <div class="flex justify-between p-6 bg-slate-50 dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-700">
-        <span class="font-bold text-slate-500" data-i18n="return1Y">1년 수익률</span>
+        <span class="font-bold text-slate-500" data-i18n="return1Y">과거 1년 수익률</span>
         <span id="modal1Y" class="font-black text-emerald-500 text-xl">-</span>
       </div>
       <div class="flex justify-between p-6 bg-slate-50 dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-700">
-        <span class="font-bold text-slate-500" data-i18n="return3Y">3년 수익률</span>
+        <span class="font-bold text-slate-500" data-i18n="return3Y">과거 3년 수익률</span>
         <span id="modal3Y" class="font-black text-emerald-500 text-xl">-</span>
       </div>
     </div>
@@ -265,7 +265,7 @@
   const cardLightColors = ['rgba(37, 99, 235, 0.08)', 'rgba(16, 185, 129, 0.08)', 'rgba(245, 158, 11, 0.08)', 'rgba(139, 92, 246, 0.08)'];
 
   const translations = {
-    ko: { lang: "🌐 ENG", subHeader: "스마트 인베스트먼트", titleMain: "데이터로 설계하는", titlePoint: "ETF 포트폴리오", description: "최적화된 배당과 성장의 비율을 제안합니다.", type1: "현금흐름형", type1Desc: "안정적인 배당금으로 생활을 설계합니다.", type2: "성장형", type2Desc: "시장보다 높은 수익률을 목표로 합니다.", type3: "혼합형", type3Desc: "성장과 배당의 밸런스를 추구합니다.", selectBtn: "전략 선택하기 →", resultTitle: "나의 맞춤 포트폴리오", chartTitle: "포트폴리오 비중", dividendLabel: "예상 월 배당금", inputKrw: "투자 예정 금액 (KRW)", inputUsd: "투자 금액 (USD)", yield: "배당수익률", return1Y: "1년 수익률", return3Y: "3년 수익률" },
+    ko: { lang: "🌐 ENG", subHeader: "스마트 인베스트먼트", titleMain: "데이터로 설계하는", titlePoint: "ETF 포트폴리오", description: "최적화된 배당과 성장의 비율을 제안합니다.", type1: "현금흐름형", type1Desc: "안정적인 배당금으로 생활을 설계합니다.", type2: "성장형", type2Desc: "시장보다 높은 수익률을 목표로 합니다.", type3: "혼합형", type3Desc: "성장과 배당의 밸런스를 추구합니다.", selectBtn: "전략 선택하기 →", resultTitle: "나의 맞춤 포트폴리오", chartTitle: "포트폴리오 비중", dividendLabel: "예상 월 배당금", inputKrw: "투자 예정 금액 (KRW)", inputUsd: "투자 금액 (USD)", yield: "배당수익률", return1Y: "과거 1년 수익률", return3Y: "과거 3년 수익률" },
     en: { lang: "🌐 KOR", subHeader: "Smart Investment", titleMain: "Data-Driven", titlePoint: "ETF Portfolio", description: "Optimized ratio of dividends and growth.", type1: "Cash Flow", type1Desc: "Stable dividends for your second salary.", type2: "Growth", type2Desc: "Targeting market-beating returns.", type3: "Balanced", type3Desc: "Balance between growth and dividends.", selectBtn: "Select Strategy →", resultTitle: "My Custom Portfolio", chartTitle: "Portfolio Allocation", dividendLabel: "Est. Monthly Dividend", inputKrw: "Total (KRW)", inputUsd: "Target (USD)", yield: "Yield", return1Y: "1Y Return", return3Y: "3Y Return" }
   };
 
