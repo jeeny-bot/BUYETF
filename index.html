@@ -51,7 +51,7 @@
         <span class="text-slate-600 dark:text-slate-300 font-bold text-sm" data-i18n="subHeader">스마트 인베스트먼트</span>
       </span>
     </div>
-    <h1 class="text-6xl font-black tracking-tighter mb-8 leading-tight">
+    <h1 class="text-4xl font-black tracking-tighter mb-8 leading-tight">
       <span data-i18n="titleMain">데이터로 설계하는</span> <span class="text-blue-600 dark:text-blue-400" data-i18n="titlePoint">ETF 포트폴리오</span>
     </h1>
     <p class="text-xl text-slate-500 dark:text-slate-400 font-medium" data-i18n="description">최적화된 배당과 성장의 비율을 제안합니다.</p>
@@ -97,16 +97,16 @@
         <div class="max-w-[300px] mx-auto"><canvas id="portfolioChart"></canvas></div>
       </div>
 
-      <div class="bg-slate-900 dark:bg-black text-white p-10 rounded-[2.5rem] shadow-2xl flex flex-col border border-slate-800">
+      <div class="bg-slate-900 dark:bg-black text-white p-10 rounded-[2.5rem] shadow-xl flex flex-col border border-slate-800">
         <div class="flex items-center gap-3 mb-6">
-          <h3 class="text-2xl text-slate-400 font-black uppercase tracking-wider" data-i18n="dividendLabel">예상 월 배당금</h3>
+          <h3 class="text-xl text-slate-400 font-black uppercase tracking-wider" data-i18n="dividendLabel">예상 월 배당금</h3>
           <div id="annualYieldBadge" class="hidden px-4 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-sm font-black">
             <span data-i18n="yield">배당수익률</span> <span id="annualYieldValue">0</span>%
           </div>
         </div>
         
         <div id="monthlyDividendDisplay" class="mb-10">
-          <p class="text-7xl font-black text-blue-400 tracking-tighter" id="valUSD">$0.00</p>
+          <p class="text-3xl font-black text-blue-400 tracking-tighter" id="valUSD">$0.00</p>
           <div class="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-slate-800/60 border border-slate-700/50 mt-6">
             <span class="text-2xl text-slate-500 font-bold">≈</span>
             <span class="text-3xl font-black text-slate-300" id="valKRW">₩0</span>
@@ -117,7 +117,7 @@
           <div class="bg-slate-800/40 p-8 rounded-[2rem] border border-slate-800/50">
             <div class="mb-8">
               <label class="text-xl text-slate-400 font-black uppercase tracking-wider block mb-4" data-i18n="inputKrw">투자 예정 금액 (KRW)</label>
-              <input type="text" id="totalInvestmentKRW" class="w-full bg-transparent border-none p-0 text-white font-black text-5xl focus:ring-0 outline-none" placeholder="0" oninput="handleCurrencyInput(this, 'KRW')">
+              <input type="text" id="totalInvestmentKRW" class="w-full bg-transparent border-none p-0 text-white font-black text-2xl focus:ring-0 outline-none" placeholder="0" oninput="handleCurrencyInput(this, 'KRW')">
             </div>
             <div class="border-t border-slate-800/30 my-8"></div>
             <div>
